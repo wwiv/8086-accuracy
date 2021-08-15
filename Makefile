@@ -1,5 +1,4 @@
-ASM = nasm
-OUT = 8086ac.img
+AS = nasm
 
 all:
-	$(ASM) -i src/ src/main.s -o $(OUT)
+	$(AS) -i src/ src/main.s -o 8086ac.com
